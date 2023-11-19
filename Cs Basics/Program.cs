@@ -1,5 +1,7 @@
 ﻿
 // Soyut bir sınıf olan Animal
+using Cs_Basics;
+
 abstract class Animal
 {
     private string name;
@@ -109,6 +111,9 @@ class Program
         {
             Console.WriteLine(item);
         }
+
+        string DateDiff = TimeDifference.StringChallenge("12:30am-12:00pm");
+        Console.WriteLine(DateDiff);
     }
 
 }
